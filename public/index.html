@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Chapters</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='index.js' defer></script>
+    <link href="./css/input.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h2 class="title-underline">Chapter form</h2>
+            <div class="form-group">
+                <label for="">Title</label>
+                <input class="form-control" type="text" name="title">
+            </div>
+            <div class="form-group">
+                <label for="">Number of lessons</label>
+                <input class="form-control text-2xl" type="number" name="lessons">
+            </div>
+            <div class="form-group">
+                <label for="">active</label>
+                <input type="checkbox" name="active">
+            </div>
+            <ul class="text-error" id="errors"></ul>
+            <div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div class="search">
+        <h2>Liste des chapitres</h2>
+        <input type="search" >
+    </div>
+    <div class="list"></div>
+</body>
+</html>
